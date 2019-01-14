@@ -1,7 +1,7 @@
 import xbmc, xbmcplugin, utils
 import GoogleMusicApi
 import time
-from urllib import unquote_plus, urlencode
+from urllib import unquote_plus, urlencode, url2pathname
 from xbmcgui import ListItem
 
 class GoogleMusicNavigation():
